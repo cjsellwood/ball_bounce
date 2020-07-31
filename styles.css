@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+#container {
+    border: 20px solid rgb(100, 100, 100);
+    /* height: 1200px;
+    width: 95vw; */
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+#add-ball, #change-shape {
+    width: 20%;
+    height: 10%;
+    font-size: 2em;
+    color: rgb(149, 149, 149);
+    background-color: rgba(0, 0, 0, 0); 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 20px;
+    position: relative;
+    z-index: 100;
+}
+
+#add-ball:hover, #change-shape:hover, .slide-container:hover {
+    color: rgb(255, 255, 255);
+}
+
+.slide-container {
+    display: inline;
+    color: rgb(146, 146, 146);
+    font-size: 2em;
+    margin-left: 20px;
+    position: relative;
+    z-index: 100;
+}
